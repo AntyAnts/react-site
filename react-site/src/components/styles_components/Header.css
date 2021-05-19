@@ -1,0 +1,26 @@
+.Header_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: fit-content;
+    background-color: lightseagreen;
+    grid-area: h;
+}
+.Header_img{
+    height: 150px;
+    width: 150px;
+    background-color: lightseagreen;
+}
+.Header_temp{
+    float: right;
+    height: inherit;
+    margin-right: 3em;
+
+
+}
+.h_header{
+    font-family: sans-serif;
+    opacity: 0.6;
+    text-align: right;
+    font-size: 2rem;
+}
